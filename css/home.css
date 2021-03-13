@@ -361,14 +361,6 @@ html {
 .card-hidden {
 	position: absolute;
 	visibility: hidden;
-	display: inline-block;
-	font-family: 'Open Sans';
-	background-color: white;
-	width: 300px;
-	color: black;
-	margin: 5px;
-	box-shadow: 1px red;
-	word-break: keep-all;
 	-ms-user-select: none;
 	-moz-user-select: -moz-none;
 	-webkit-user-select: none;
