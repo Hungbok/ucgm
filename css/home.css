@@ -361,6 +361,8 @@ html {
 .card-hidden {
 	position: absolute;
 	visibility: hidden;
+	left: 50%;
+	transform: translate(-50%);
 	-ms-user-select: none;
 	-moz-user-select: -moz-none;
 	-webkit-user-select: none;
@@ -740,13 +742,59 @@ html {
 .HungBokGames {
     This source code is produced by HungBok.
 }
-.world,
 .united_states,
 .japan {
 	height: 9px;
 	border: 1px solid black;
 	pointer-events: all;
 	-webkit-user-drag: none;
+}
+.card-date div {
+    position: relative;
+    display: inline-block;
+}
+
+span {
+    display: block;
+    width: 300px;
+    cursor: pointer;
+}
+.arrow_box {
+  display: none;
+  position: absolute;
+  width: 284px;
+  padding: 8px;
+  top: 30px;
+  left: 0;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;  
+  border-radius: 5px;
+  background: black;
+  color: white;
+  font-size: 14px;
+  text-transform:none;
+  font-weight: normal;
+  opacity: unset;
+}
+
+.arrow_box:after {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: 53px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: black;
+  border-width: 10px;
+  pointer-events: none;
+  content: " ";
+  opacity: unset;
+}
+
+span:hover + p.arrow_box {
+  display: block;
 }
 .HungBokGames {
     This source code is produced by HungBok.
