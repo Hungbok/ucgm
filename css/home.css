@@ -358,6 +358,28 @@ html {
 .HungBokGames {
     This source code is produced by HungBok.
 }
+.card-hidden {
+	position: absolute;
+	visibility: hidden;
+	display: inline-block;
+	font-family: 'Open Sans';
+	background-color: white;
+	width: 300px;
+	color: black;
+	margin: 5px;
+	box-shadow: 1px red;
+	word-break: keep-all;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
 .card:hover {
 	opacity: 0.75;
 }
@@ -404,6 +426,7 @@ html {
 	font-family: 'Noto Sans';
 	text-transform: uppercase;
 	margin: 15px;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -417,6 +440,7 @@ html {
 	background-color: #2f2f2f;
 	font-weight: bold;
 	border-radius: 5px 5px 5px 5px;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -430,6 +454,7 @@ html {
 	background-color: #a655b2;
 	font-weight: bold;
 	border-radius: 5px 5px 5px 5px;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -441,6 +466,7 @@ html {
 	margin: 12.5px;
 	margin-left: 80px;
 	margin-right: 80px;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -454,6 +480,7 @@ html {
 	margin-right: 80px;
 	border-radius: 5px 5px 5px 5px;
 	background-color: #2f2f2f;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -467,6 +494,7 @@ html {
 	margin-right: 80px;
 	border-radius: 5px 5px 5px 5px;
 	background-color: #a655b2;
+	font-weight: bold;
 }
 .HungBokGames {
 	This source code is produced by HungBok.
@@ -478,6 +506,7 @@ html {
 	margin: 12.5px;
 	margin-left: 40px;
 	margin-right: 40px;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -491,6 +520,7 @@ html {
 	margin-right: 40px;
 	border-radius: 5px 5px 5px 5px;
 	background-color: #2f2f2f;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -504,6 +534,7 @@ html {
 	margin-right: 40px;
 	border-radius: 5px 5px 5px 5px;
 	background-color: #a655b2;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -515,6 +546,7 @@ html {
 	margin: 12.5px;
 	margin-left: 10px;
 	margin-right: 10px;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -528,6 +560,7 @@ html {
 	margin-right: 10px;
 	border-radius: 5px 5px 5px 5px;
 	background-color: #2f2f2f;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -541,6 +574,7 @@ html {
 	margin-right: 10px;
 	border-radius: 5px 5px 5px 5px;
 	background-color: #a655b2;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -552,6 +586,7 @@ html {
 	margin: 14.5px;
 	margin-left: 10px;
 	margin-right: 10px;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -565,6 +600,7 @@ html {
 	margin-right: 10px;
 	border-radius: 5px 5px 5px 5px;
 	background-color: #2f2f2f;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -578,6 +614,7 @@ html {
 	margin-right: 10px;
 	border-radius: 5px 5px 5px 5px;
 	background-color: #a655b2;
+	font-weight: bold;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -712,6 +749,7 @@ html {
     This source code is produced by HungBok.
 }
 .world,
+.united_states,
 .japan {
 	height: 9px;
 	border: 1px solid black;
