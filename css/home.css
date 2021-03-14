@@ -762,8 +762,9 @@ html {
   position: absolute;
   width: 284px;
   padding: 8px;
-  top: 30px;
-  left: -77.5px;
+  top: 35px;
+  left: 50%;
+  transform: translate(-50%);
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;  
   border-radius: 5px;
@@ -797,7 +798,8 @@ html {
   width: 284px;
   padding: 8px;
   top: 35px;
-  left: -27px;
+  left: 50%;
+  transform: translate(-50%);
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;  
   border-radius: 5px;
