@@ -624,29 +624,22 @@ html {
     This source code is produced by HungBok.
 }
 .early-access {
-	font-size: 14px;
-	font-family: 'Noto Sans';
-	text-transform: uppercase;
-	color: white;
+	padding-top: 4px;
+	padding-bottom: 4px;
 	padding-left: 5px;
 	padding-right: 5px;
 	background-color: skyblue;
 	font-weight: bold;
-	border-radius: 5px 5px 5px 5px;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.early-access2 {
-	font-size: 14px;
-	font-family: 'Noto Sans';
-	text-transform: uppercase;
-	color: white;
-	padding-left: 5px;
-	padding-right: 5px;
-	background-color: skyblue;
-	font-weight: bold;
-	border-radius: 5px 5px 5px 5px;
+	border-radius: 3px 3px 3px 3px;
+	height: 10px;
+	vertical-align: middle;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -744,46 +737,85 @@ html {
 }
 .united_states,
 .japan {
-	height: 9px;
+	height: 10px;
 	border: 1px solid black;
-	pointer-events: all;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
 	-webkit-user-drag: none;
 }
 .card-date div {
     position: relative;
     display: inline-block;
 }
-
-span {
+.card-date-us,
+.card-date-jp,
+.card-date-early {
     display: block;
-    width: 300px;
-    cursor: pointer;
+    width: auto;
 }
-.arrow_box {
+.additional-description {
   display: none;
   position: absolute;
   width: 284px;
   padding: 8px;
   top: 30px;
-  left: 0;
+  left: -77.5px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;  
   border-radius: 5px;
   background: black;
   color: white;
-  font-size: 14px;
-  text-transform:none;
+  font-size: 12px;
+  vertical-align: middle;
+  text-transform: none;
   font-weight: normal;
   opacity: unset;
 }
-
-.arrow_box:after {
+.additional-description:after {
   position: absolute;
   bottom: 100%;
   left: 50%;
   width: 0;
   height: 0;
-  margin-left: 53px;
+  margin-left: 0px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: black;
+  border-width: 10px;
+  vertical-align: middle;
+  pointer-events: none;
+  content: " ";
+  opacity: unset;
+}
+.additional-description-early {
+  display: none;
+  position: absolute;
+  width: 284px;
+  padding: 8px;
+  top: 35px;
+  left: -27px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;  
+  border-radius: 5px;
+  background: black;
+  color: white;
+  font-size: 12px;
+  vertical-align: middle;
+  text-transform: none;
+  font-weight: normal;
+  opacity: unset;
+}
+.additional-description-early:after {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: 0px;
   border: solid transparent;
   border-color: rgba(51, 51, 51, 0);
   border-bottom-color: black;
@@ -792,8 +824,13 @@ span {
   content: " ";
   opacity: unset;
 }
-
-span:hover + p.arrow_box {
+.card-date-us:hover + .additional-description {
+  display: block;
+}
+.card-date-jp:hover + .additional-description {
+  display: block;
+}
+.card-date-early:hover + .additional-description-early {
   display: block;
 }
 .HungBokGames {
