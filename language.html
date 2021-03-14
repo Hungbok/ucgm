@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HungBok Games Home</title>
+	<link rel="icon" href="./hungbokgames%20favicon.png" type="image/x-icon">
+	<script data-ad-client="ca-pub-4951792338681882" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0, user-scalable=no, 
+  maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="HungBok Games is a clean and easy-to-see website for upcoming games. Visit HungBok Games now to find out which games will be released this month!">
+    <meta name="keywords" content="hungbok, heungbok, hung, heung, bok, hungbokgames, heungbokgames, hungbok games, heungbok games, games, game, upcoming games, popular games, upcoming popular games, 흥복, 흥, 복, 흥복게임즈, 흥복 게임즈, 흥복게임스, 흥복 게임스, 게임, 게임들, 출시예정 게임, 출시 예정 게임, 인기있는 게임, 인기 있는 게임, 인기있는 출시예정 게임, HungBok Spiele, Spiel, Spiele, bevorstehende Spiele, beliebte Spiele, bevorstehende beliebte Spiele, Juegos HungBok, juego, juegos, Próximos juegos, Juegos populares, próximos juegos populares, Jeux HungBok, Jeu, Jeux, jeux à venir, jeux populaires, jeux populaires à venir, HungBok Игры, игра, игры, предстоящие игры, популярные игры, грядущие популярные игры, フンボク, フンボクゲームズ, ゲームズ, ゲーム, 今後のゲーム, 人気のゲーム, 今後の人気ゲーム, 兴馥, 兴馥游戏, 游戏, 游戏, 即将到来的游戏, 热门游戏, 即将流行的游戏, 興馥, 興馥遊戲, 遊戲, 遊戲, 即將到來的遊戲, 熱門遊戲, 即將流行的遊戲">
+    <meta http-equiv="cache-control" content="no-cache">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QLX9EF7ECJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QLX9EF7ECJ');
+    </script>
+    <style type="text/css">
+        body {
+            margin: 0%;
+        }
+        a:link {
+            color: black;
+            text-decoration: none;
+            padding: 10px;
+        }
+        a:visited {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            color: lightgray;
+            text-decoration: none;
+        }
+        .background img{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -2;
+            overflow: hidden;
+            -ms-user-select: none;
+            -moz-user-select: -moz-none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            user-select:none;
+            pointer-events: none;
+        }
+        .title {
+            font-family: 'Open Sans';
+            font-size: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 25vh;
+            text-align: center;
+            text-transform :uppercase;
+            -ms-user-select: none;
+            -moz-user-select: -moz-none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            user-select:none;
+            line-height: 50%;
+        }
+        .title-line {
+            height: 10px;
+            background-color: #E6C300;
+            border: 0px;
+            line-height: 50%;
+        }
+        .background-square {
+            background-color: white;
+            position: absolute;
+            width: 950px;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .page-menu {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            -ms-user-select: none;
+            -moz-user-select: -moz-none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            user-select:none;
+        }
+        .available {
+            display: inline-block;
+            font-family: 'Open Sans';
+            background-color: white;
+            width: 300px;
+            color: black;
+        }
+        .available-title {
+            font-size: 30px;
+            font-family: 'Open Sans';
+            text-transform :capitalize;
+        }
+        .available-menu {
+            font-family: 'Open Sans';
+            color: black;
+            text-transform :capitalize;
+        }
+        .unavailable {
+            display: inline-block;
+            font-family: 'Open Sans';
+            background-color: white;
+            width: 300px;
+            color: lightgray;
+        }
+        .unavailable-title {
+            font-size: 30px;
+            font-family: 'Open Sans';
+            text-transform :capitalize;
+        }
+        .unavailable-menu {
+            font-family: 'Open Sans';
+            color: lightgray;
+            text-transform :capitalize;
+        }
+        .footer-menu {
+            font-family: 'Open Sans';
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            position: absolute;
+            bottom: 100px;
+            -ms-user-select: none;
+            -moz-user-select: -moz-none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            user-select:none;
+        }
+        .about {
+            margin-right: 25px;
+            margin-left:  25px;
+            text-transform :capitalize;
+        }
+        .faq {
+            margin-right: 25px;
+            margin-left:  25px;
+            text-transform :capitalize;
+        }
+        .contact {
+            margin-right: 25px;
+            margin-left:  25px;
+            text-transform :capitalize;
+        }
+        .donate {
+            margin-right: 25px;
+            margin-left:  25px;
+            text-transform :capitalize;
+        }
+        .footer-developer {
+            font-family: 'Open Sans';
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            position: absolute;
+            bottom: 30px;
+            text-transform :capitalize;
+            -ms-user-select: none;
+            -moz-user-select: -moz-none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            user-select:none;
+        }
+        .languagem {
+            visibility: hidden;
+            font-family: 'Open Sans';
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            position: absolute;
+            bottom: 65px;
+            text-transform :capitalize;
+            -ms-user-select: none;
+            -moz-user-select: -moz-none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            user-select:none;
+        }
+        .zh {
+            font-size: 26px;
+            line-height: 90%;
+        }
+        .translate {
+            font-size: 12px;
+        }
+        .language { 
+            color: black; 
+            margin-right: 25px;
+            margin-left:  25px;
+            padding: 10px;
+            font-size: 16px; 
+            border: none; 
+            cursor: pointer; 
+        } 
+        .lang { 
+            position: relative; 
+            display: inline-block; 
+        } 
+        .lang-content { 
+            top: -270px;
+            display: none; 
+            position: absolute; 
+            min-width: 88px; 
+        } 
+        .lang-content a { 
+            color: black; 
+            text-decoration: none; 
+            display: block; 
+            align-content: center;
+        } 
+        .lang-content a:last-child { 
+            border-bottom: none; 
+        } 
+        .lang-content a:hover { 
+            color: lightgray; 
+        } 
+        .lang:hover .lang-content { 
+            display: block; 
+        } 
+        .lang:hover .lang { 
+            color: lightgray; 
+        }
+        @media(max-width:950px) {
+            .background-square {
+                background-color: white;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: -1;
+                overflow: hidden;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .footer {
+                position:relative;
+                bottom: -200px;
+            }
+            .unavailable {
+                line-height: 150%;
+            }
+            .available {
+                line-height: 150%;
+            }
+        }
+        @media(max-width:720px) {
+            .footer {
+                position:relative;
+            }
+        }
+        @media(max-width:620px) {
+            .footer {
+                margin-top: 300px;
+            }
+            .footer-menu {
+                display: flex;
+                flex-direction: column;
+                margin-top: 75px;
+                margin-bottom: 25px;
+            }
+            .footer-developer {
+                display: flex;
+                flex-direction: column;
+                margin-top: 75px;
+                margin-bottom: 25px;
+            }
+            .about {
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+            .faq {
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+            .contact {
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+            .donate {
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+            .lang {
+                margin-top: 25px;
+                margin-bottom: 25px;
+                visibility: hidden;
+            }
+            .languagem {
+                margin-top: 25px;
+                margin-bottom: 25px;
+                bottom: 100px;
+                visibility: visible;
+            }
+        }
+        @media(max-width:550px) {
+            .title-text {
+                font-size: 30px;
+            }
+        }
+        @media(max-height:1200px) {
+            .page-menu {
+                line-height: 75%;
+            }
+            .footer-menu {
+                line-height: 60%;
+            }
+            .footer-developer {
+                line-height: 75%;
+            }
+        }
+        @media(max-height:850px) {
+            .page-menu {
+                line-height: 50%;
+            }
+            .footer-menu {
+                line-height: 50%;
+            }
+            .footer-developer {
+                line-height: 50%;
+            }
+            .lang { 
+                visibility: hidden;
+                display: flex;
+                flex-direction: column;
+            }
+            .languagem { 
+                visibility: visible;
+            }
+        }
+        @media(max-height:800px) {
+            .background-square {
+                background-color: white;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: -1;
+                overflow: hidden;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .footer {
+                position:relative;
+                bottom: -200px;
+            }
+            .lang { 
+                visibility: hidden;
+                display: flex;
+                flex-direction: column;
+            }
+            .languagem { 
+                visibility: visible;
+            }
+        }
+        @media(max-height:500px) {
+            .title-text {
+                font-size: 24px;
+            }
+        }
+    </style>
+    <script>
+</script>
+</head>
+<body>
+<header>
+    <div class="background">
+        <img src="./image/bg.png" ondragstart="return false" -webkit-user-drag: none;/>
+    </div>
+    <div class="title" ondragstart="return false" -webkit-user-drag: none;>
+        <div class="title-text">
+            <b>HUNGBOK GAMES</b>
+            <hr class="title-line">
+        </div>
+    </div>
+    <div class="background-square">
+        <h1></h1>
+    </div>
+</header>
+<nav>
+</nav>
+    <div class="menu">
+        <div class="page-menu">
+            <div class="unavailable">
+                <div class="unavailable-title">
+                    <p><b>Deutsch</b></p>
+                </div>
+                <div class="unavailable-menu">
+                    <p><ahref="./de/2021">2021</a></p>
+                    <p><ahref="./de/2022">2022</a></p>
+                    <p><ahref="./de/development">In Entwicklung</a></p>
+                </div>
+            </div>
+            <div class="available">
+                <div class="available-title">
+                    <p><b>English</b></p>
+                </div>
+                <div class="available-menu">
+                    <p><a href="./en/2021">2021</a></p>
+                    <p style="color: lightgray"><ahref="./en/2022">2022</a></p>
+                    <p style="color: lightgray"><ahref="./en/development">In Development</a></p>
+                </div>
+            </div>
+            <div class="unavailable">
+                <div class="unavailable-title">
+                    <p><b>Español</b></p>
+                </div>
+                <div class="unavailable-menu">
+                    <p><ahref="./es/2021">2021</a></p>
+                    <p><ahref="./es/2022">2022</a></p>
+                    <p><ahref="./es/development">En desarrollo</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="page-menu">
+            <div class="unavailable">
+                <div class="unavailable-title">
+                    <p><b>français</b></p>
+                </div>
+                <div class="unavailable-menu">
+                    <p><ahref="./fr/2021">2021</a></p>
+                    <p><ahref="./fr/2022">2022</a></p>
+                    <p><ahref="./fr/development">En développement</a></p>
+                </div>
+            </div>
+            <div class="unavailable">
+                <div class="unavailable-title">
+                    <p><b>русский</b></p>
+                </div>
+                <div class="unavailable-menu">
+                    <p><ahref="./ru/2021">2021 год</a></p>
+                    <p><ahref="./ru/2022">2022 год</a></p>
+                    <p><ahref="./ru/development">В развитии</a></p>
+                </div>
+            </div>
+            <div class="unavailable">
+                <div class="unavailable-title">
+                    <p><b>한국어</b></p>
+                </div>
+                <div class="unavailable-menu">
+                    <p><ahref="./ko/2021">2021년</a></p>
+                    <p><ahref="./ko/2022">2022년</a></p>
+                    <p><ahref="./ko/development">개발중</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="page-menu">
+            <div class="unavailable">
+                <div class="unavailable-title">
+                    <p><b>日本語</b></p>
+                </div>
+                <div class="unavailable-menu">
+                    <p><ahref="./ja/2021">2021年</a></p>
+                    <p><ahref="./ja/2022">2022年</a></p>
+                    <p><ahref="./ja/development">開発中</a></p>
+                </div>
+            </div>
+            <div class="unavailable">
+                <div class="unavailable-title">
+                    <p><b>简体中文</b></p>
+                </div>
+                <div class="unavailable-menu">
+                    <p><ahref="./zh-CN/2021">2021年</a></p>
+                    <p><ahref="./zh-CN/2022">2022年</a></p>
+                    <p><ahref="./zh-CN/development">开发中</a></p>
+                </div>
+            </div>
+            <div class="unavailable">
+                <div class="unavailable-title">
+                    <p><b>繁體中文</b></p>
+                </div>
+                <div class="unavailable-menu">
+                    <p><ahref="./zh-TW/2021">2021年</a></p>
+                    <p><ahref="./zh-TW/2022">2022年</a></p>
+                    <p><ahref="./zh-TW/development">開發中</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="page-menu">
+            <div class="available">
+                <div class="available-title">
+                </div>
+                <div class="available-menu">
+                    <p><a href="translate" class="translate">Help us translate this site</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+<footer>
+    <div class="footer">
+        <div class="footer-menu">
+            <a class="about" href="about">About</a>
+            <a class="faq" href="faq">FAQ</a>
+            <a class="contact" href="contact">Contact Us</a>
+            <a class="donate" href="donate">Donate</a>
+            <div class="lang">
+                <a class="language" href="./en/language"><img src="./flag/United_States.jpg" title="English" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+                <div class="lang-content">
+                    <a href="./de/language"><img src="./flag/Germany.jpg" title="Deutsch" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+                    <a href="./es/language"><img src="./flag/Spain.jpg" title="Español" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+                    <a href="./fr/language"><img src="./flag/France.jpg" title="Français" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+                    <a href="./ru/language"><img src="./flag/Russia.jpg" title="Русский" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+                    <a href="./ko/language"><img src="./flag/Korea.jpg" title="한국어" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+                    <a href="./ja/language"><img src="./flag/Japan.jpg" title="日本語" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+                    <a href="./zh-Hans/language"><img src="./flag/China.jpg" title="简体中文" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+                    <a href="./zh-Hant/language"><img src="./flag/Taiwan.jpg" title="繁體中文" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+                </div>
+            </div>
+        </div>
+        <div class="languagem">
+            <a href="./de/language"><img src="./flag/Germany.jpg" title="Deutsch" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+            <a href="./en/language"><img src="./flag/United_States.jpg" title="English" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+            <a href="./es/language"><img src="./flag/Spain.jpg" title="Español" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+            <a href="./fr/language"><img src="./flag/France.jpg" title="Français" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+            <a href="./ru/language"><img src="./flag/Russia.jpg" title="Русский" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+            <a href="./ko/language"><img src="./flag/Korea.jpg" title="한국어" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+            <a href="./ja/language"><img src="./flag/Japan.jpg" title="日本語" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+            <a href="./zh-Hans/language"><img src="./flag/China.jpg" title="简体中文" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+            <a href="./zh-Hant/language"><img src="./flag/Taiwan.jpg" title="繁體中文" height="10px" style="border: 1px solid black; pointer-events:all" ondragstart="return false" -webkit-user-drag: none;></a>
+        </div>
+        <div class="footer-developer">
+            <b class="developer">Made by HungBok</b>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
