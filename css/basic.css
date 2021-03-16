@@ -186,72 +186,48 @@ html {
 	This source code is produced by HungBok.
 }
 .section-content-title {
-	background-color: #E6D1A1;
-	border-radius: 0px 0px 5px 5px;
-	width: 934px;
-	height: 100px;
-	margin: 0 auto;
-	vertical-align: top;
-	box-shadow: 1px 1px 5px black;
 }
 .HungBokGames {
     This source code is produced by HungBok.
 }
 .section-content-description {
-	width: 100%;
+	font-family: 'Do Hyeon';
+	color: black;
+	box-shadow: 1px red;
+	word-break: keep-all;
+	text-align: center; 
+	vertical-align: middle;
+	background-color: #E6D1A1;
+	border-radius: 0px 0px 5px 5px;
 	margin: 0 auto;
-	text-align: center;
+	width: 934px;
+	height: 100px;
+	vertical-align: top;
+	box-shadow: 1px 1px 5px black;
+	
 }
 .HungBokGames {
     This source code is produced by HungBok.
 }
 .section-content-text {
 	display: inline-block;
-	font-family: 'Do Hyeon';
-	width: 150px;
-	height: 60px;
-	color: black;
-	box-shadow: 1px red;
-	word-break: keep-all;
-	text-align:center; 
-	vertical-align:middle;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 35px;
+	text-align: center; 
+	vertical-align: middle;
+	padding: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 .HungBokGames {
     This source code is produced by HungBok.
 }
-.section-content-text2 {
-	display: inline-block;
-	font-family: 'Do Hyeon';
-	width: 150px;
-	height: 60px;
-	color: black;
-	box-shadow: 1px red;
-	word-break: keep-all;
-	text-align:center; 
-	vertical-align:middle;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 20px;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.section-content-text3 {
-	display: inline-block;
-	font-family: 'Do Hyeon';
-	width: 150px;
-	height: 60px;
-	color: black;
-	box-shadow: 1px red;
-	word-break: keep-all;
-	text-align:center; 
-	vertical-align:middle;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 5px;
+.small-square-platforms {
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -361,6 +337,20 @@ html {
 .HungBokGames {
     This source code is produced by HungBok.
 }
+.menu-button-platform {
+	display: inline-block;
+	font-family: 'Open Sans';
+	background-color: white;
+	width: 100px;
+	color: black;
+	margin: 5px;
+	margin-left: 25px;
+	margin-right: 25px;
+	word-break: keep-all;
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
 .menu-button2 {
 	display: inline-block;
 	font-family: 'Open Sans';
@@ -456,7 +446,20 @@ html {
 	margin-left: 100px;
 	margin-right: 100px;
 	word-break: keep-all;
-	border: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+}
+.inc-more-button2 {
+	display: inline-block;
+	font-family: 'Open Sans';
+	background-color: white;
+	width: 934px;
+	color: black;
+	margin: 5px;
+	margin-left: 100px;
+	margin-right: 100px;
+	word-break: keep-all;
 	border-radius: 5px 5px 5px 5px;
 }
 .HungBokGames {
@@ -488,6 +491,15 @@ html {
 	font-size: 14px;
 	font-family: 'Open Sans';
 	text-transform: uppercase;
+	padding: 15px;
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
+.inc-more-title {
+	font-size: 14px;
+	font-family: 'Open Sans';
+	text-transform:none;
 	padding: 15px;
 }
 .HungBokGames {
@@ -749,6 +761,25 @@ html {
 }
 .HungBokGames {
     This source code is produced by HungBok.
+}
+.video-play {
+	position: relative;
+}
+  
+.video-container {
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding-top: 56.25%;
+}
+  
+iframe {
+	z-index: 1;
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
 .united_states,
 .japan {
@@ -1225,7 +1256,7 @@ html {
 	This source code is produced by HungBok.
 }
 @media(max-width: 1000px) {
-	.section-text, .section-content-title, .menu, .menu2, .more, .more-card {
+	.section-text, .sections-text, .section-content-description, .menu, .menu2, .more, .more-card {
 		width: 100%;
 		overflow: hidden;
 	}
@@ -1237,9 +1268,41 @@ html {
 .HungBokGames {
     This source code is produced by HungBok.
 }
+@media(max-width: 824px) {
+	.section-content-description {
+		height: 200px;
+	}
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
+@media(max-width: 488px) {
+	.section-content-description {
+		height: 275px;
+	}
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
+@media(max-width: 342px) {
+	.section-content-description {
+		height: 350px;
+	}
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
 @media(max-width: 330px) {
 	.card {
 		width: 95%;
+	}
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
+@media(max-width: 317px) {
+	.section-content-description {
+		height: 425px;
 	}
 }
 .HungBokGames {

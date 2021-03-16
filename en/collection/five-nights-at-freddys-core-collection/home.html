@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="../../../css/basic.css?ver={$cssVer}">
     <link rel="stylesheet" href="../../../css/games.css?ver={$cssVer}">
     <link rel="stylesheet" href="../../../css/platforms.css?ver={$cssVer}">
+    <link rel="stylesheet" href="../../../css/gallery.css">
+    <link rel="stylesheet" href="../../../css/lightbox.min.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QLX9EF7ECJ"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -29,28 +31,64 @@
         gtag('config', 'G-QLX9EF7ECJ');
     </script>
 </head>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <div class="video">
+        <div class="video-container">
+          <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/Uw4-bZkxyKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+  </div>
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <a href="https://www.maximumgames.com/wp-content/uploads/2020/12/SL_Screenie_1.jpg" style="width:100%" data-lightbox="example-set"><img src="https://www.maximumgames.com/wp-content/uploads/2020/12/SL_Screenie_1.jpg" style="width:100%"></a>
+  </div>
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <a href="https://www.maximumgames.com/wp-content/uploads/2020/12/screenie4.jpg" style="width:100%" data-lightbox="example-set"><img src="https://www.maximumgames.com/wp-content/uploads/2020/12/screenie4.jpg" style="width:100%"></a>
+  </div>
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <a href="https://www.maximumgames.com/wp-content/uploads/2020/12/screenie2.jpg" style="width:100%" data-lightbox="example-set"><img src="https://www.maximumgames.com/wp-content/uploads/2020/12/screenie2.jpg" style="width:100%"></a>
+  </div>
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <a href="https://www.maximumgames.com/wp-content/uploads/2020/12/fnaf4_06.jpg" style="width:100%" data-lightbox="example-set"><img src="https://www.maximumgames.com/wp-content/uploads/2020/12/fnaf4_06.jpg" style="width:100%"></a>
+  </div>
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <a href="https://www.maximumgames.com/wp-content/uploads/2020/12/FNAF_Screenie_6.jpg" style="width:100%" data-lightbox="example-set"><img src="https://www.maximumgames.com/wp-content/uploads/2020/12/FNAF_Screenie_6.jpg" style="width:100%"></a>
+  </div>
+  <a class="prev" style="z-index: 99999;" onclick="plusSlides(-1)">❮</a>
+  <a class="next" style="z-index: 99999;" onclick="plusSlides(1)">❯</a>
+  <div class="row">
+    <div class="column">
+        <div class="video-play">
+            <img class="demo cursor" src="https://img.youtube.com/vi/Uw4-bZkxyKQ/maxresdefault.jpg" style="width:100%; position: absolute;" onclick="currentSlide(1)">
+            <img HungBokGames src="../../../image/play-button.png" style="position: absolute; left: 50%; transform: translate(-50%); top: 30px; opacity: 1; cursor: pointer;" width="30px" onclick="currentSlide(1)">
+        </div>
+    </div>
+    <div class="column">
+        <img class="demo cursor" src="https://www.maximumgames.com/wp-content/uploads/2020/12/SL_Screenie_1.jpg" style="width:100%; left: 100%; position: relative;" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+        <img class="demo cursor" src="https://www.maximumgames.com/wp-content/uploads/2020/12/screenie4.jpg" style="width:100%; left: 100%; position: relative;" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+        <img class="demo cursor" src="https://www.maximumgames.com/wp-content/uploads/2020/12/screenie2.jpg" style="width:100%; left: 100%; position: relative;" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+        <img class="demo cursor" src="https://www.maximumgames.com/wp-content/uploads/2020/12/fnaf4_06.jpg" style="width:100%; left: 100%; position: relative;" onclick="currentSlide(5)">
+    </div>
+    <div class="column">
+        <img class="demo cursor" src="https://www.maximumgames.com/wp-content/uploads/2020/12/FNAF_Screenie_6.jpg" style="width:100%; left: 100%; position: relative;" onclick="currentSlide(6)">
+    </div>
+  </div>
+</div>
 <body>
 <header>
-    <div class="title2" ondragstart="return false" -webkit-user-drag: none; HungBokGames>
-        <div class="title-text">
-            <b>Five Nights at Freddy's: Core Collection</b>
-            <hr class="title-line">
-        </div>
-    </div>
 </header>
-    <div class="menu">
-        <div class="menu-text">
-            <div class="menu-card">
-                <div class="menu-button">
-                    <a class="link" href="javascript:history.back()">
-                        <div class="menu-text">
-                            <p class="menu-title"><b>Back</b></p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
     <a class="top" href="#"><img HungBokGames src="../../../image/up-double.png" width="30px" ondragstart="return false" -webkit-user-drag: none;>
     </a>
     <div class="sections">
@@ -63,7 +101,7 @@
     <div class="section-content">
         <div class="section-content-title">
             <div class="section-content-description">
-                <div class="section-content-text2">
+                <div class="section-content-text">
                     <b>Developers</b>
                     <p>Scott Cawthon<br>Clickteam</p>
                 </div>
@@ -82,15 +120,31 @@
                 <div class="section-content-text">
                     <b>Platforms</b>
                     <br>
-                    <p class="square-NS"></p>
-                    <p class="square-android"></p>
-                    <p class="square-NS"></p>
-                    <p class="square-android"></p>
-                    <p class="square-NS"></p>
-                    <p class="square-NS"></p>
-                    <p class="square-NS"></p>
-                    <p class="square-NS"></p>
-                    <p class="square-android"></p>
+                    <img class="small-square-platforms" HungBokGames src="../../../platform/individual/small-square/NS.png" width="25px">
+                    <img class="small-square-platforms" HungBokGames src="../../../platform/individual/small-square/PS4.png" width="25px">
+                    <img class="small-square-platforms" HungBokGames src="../../../platform/individual/small-square/XBO.png" width="25px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="game-card" HungBokGames>
+        <div class="more">
+            <div class="more-text">
+                <div class="more-card">
+                    <div class="inc-more-button">
+                        <a class="link" href?="">
+                            <div class="more-text">
+                                <p class="more-title"><b>About this game</b></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="inc-more-button2">
+                        <a class="link" href?="">
+                            <div class="more-text">
+                                <p class="inc-more-title">Welcome to your new job at Freddy Fazbear’s Pizza – where fantasy and fun come to life! Discover why children and adults alike love Freddy and his animatronic friends as you survive a series of terrifying encounters with the cast of murderous machines that roam the halls of the pizzeria at night looking for unwelcome visitors. Remember: Fazbear Entertainment is not responsible for accidental or intentional death or dismemberment.</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -109,6 +163,7 @@
                 </div>
             </div>
         </div>
+    </div>
     <div class="game-card" HungBokGames>
         <div class="card" HungBokGames>
             <a class="link" href?="./games/five-nights-at-freddys/home" HungBokGames>
@@ -159,6 +214,68 @@
                     <p class="PS4" HungBokGames></p>
                 </div>
             </a>
+        </div>
+    </div>
+    <div class="game-card" HungBokGames>
+        <div class="more">
+            <div class="more-text">
+                <div class="more-card">
+                    <div class="inc-more-button">
+                        <a class="link" href?="">
+                            <div class="more-text">
+                                <p class="more-title"><b>External links</b></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="menu-text">
+            <div class="menu-card">
+                <div class="menu-button-platform">
+                    <a class="link" href="https://www.maximumgames.com/five-nights-at-freddys-core-collection/" target="_blank">
+                        <div class="menu-text">
+                            <p class="menu-title"><img class="small-square-platforms" HungBokGames src="../../../platform/individual/small-square/Web.png" width="50px"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-button-platform">
+                    <a class="link" href?="" target="_blank">
+                        <div class="menu-text">
+                            <p class="menu-title"><img class="small-square-platforms" HungBokGames src="../../../platform/individual/small-square/NS.png" width="50px"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-button-platform">
+                    <a class="link" href?="" target="_blank">
+                        <div class="menu-text">
+                            <p class="menu-title"><img class="small-square-platforms" HungBokGames src="../../../platform/individual/small-square/PS.png" width="50px"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-button-platform">
+                    <a class="link" href?="" target="_blank">
+                        <div class="menu-text">
+                            <p class="menu-title"><img class="small-square-platforms" HungBokGames src="../../../platform/individual/small-square/XB.png" width="50px"></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="menu-text">
+            <div class="menu-card">
+                <div class="menu-button">
+                    <a class="link" href="javascript:history.back()">
+                        <div class="menu-text">
+                            <p class="menu-title"><b>Back</b></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 <footer>
@@ -214,4 +331,7 @@
     </div>
 </footer>
 </body>
+<script language="javascript" type="text/javascript" src="../../../javascript/gallery.js"></script>
+<script src="../../../javascript/jquery.min.js"></script>
+<script src="../../../javascript/lightbox.min.js"></script>
 </html>

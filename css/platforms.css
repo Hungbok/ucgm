@@ -835,23 +835,3 @@
 .HungBokGames {
     This source code is produced by HungBok.
 }
-.square-android {
-    height: 25px;
-    background-image: url(../platform/individual/small-square/Android.png);
-    width: 25px;
-    background-size: cover;
-    float: left;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.square-NS {
-    height: 25px;
-    background-image: url(../platform/individual/small-square/NS.png);
-    width: 25px;
-    background-size: cover;
-    float: left;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
