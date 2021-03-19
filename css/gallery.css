@@ -16,7 +16,7 @@ body {
     position: relative;
     width: 934px;
     left: 50%;
-	transform: translate(-50%);
+	  transform: translate(-50%);
   }
   
   @media(max-width: 1000px) {
