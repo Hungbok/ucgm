@@ -233,7 +233,7 @@ html {
 	display: inline-block;
 	margin: 0 auto;
 	width: 934px;
-	height: 350px;
+	height: 300px;
 	box-shadow: 1px 1px 5px black;
 	
 }
@@ -246,7 +246,7 @@ html {
 	width: 300px;
 	height: 150px;
 	padding-top: 20px;
-	display: table-cell;
+	display: inline-block;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -1528,7 +1528,6 @@ iframe {
 @media(max-width: 1000px) {
 	.section-text,
 	.sections-text,
-	.section-content-description,
 	.menu,
 	.menu2,
 	.more,
@@ -1568,8 +1567,16 @@ iframe {
 	.play-button {
 		top: 90%;
 	}
-	.section-content-text {
-		width: 330px;
+	.section-content-description {
+		width: 100%;
+	}
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
+@media(max-width: 921px) {
+	.section-content-description {
+		height: 600px;
 	}
 }
 .HungBokGames {
@@ -1595,21 +1602,9 @@ iframe {
 .HungBokGames {
     This source code is produced by HungBok.
 }
-@media(max-width: 700px) {
-	.section-content-text {
-		display: inline-block;
-		margin-top: 10px;
-	}
+@media(max-width: 615px) {
 	.section-content-description {
-		height: 650px;
-	}
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-@media(max-width: 675px) {
-	.section-content-description {
-		height: 975px;
+		height: 925px;
 	}
 }
 .HungBokGames {
@@ -1670,6 +1665,9 @@ iframe {
 @media(max-width: 330px) {
 	.card {
 		width: 95%;
+	}
+	.section-content-text {
+		width: 100%;
 	}
 }
 .HungBokGames {
