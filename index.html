@@ -56,3 +56,12 @@
     </script>
 </head>
 </html>
+<!-- jstl -->
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+
+<jsp:useBean id="now" class="java.util.Date" />
+<fmt:formatDate var="now" value="${now}" pattern="yyyyMMddHHmmss" />
+
+<script type="text/javascript" src="sample.js?v=${now}"></script>
+<link rel="stylesheet" type="text/css" href="sample.css?v=${now}">
