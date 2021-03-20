@@ -36,8 +36,8 @@
         <div class="rolling_panel">
             <ul>
                 <li class="mySlides">
-                    <div class="video">
-                        <iframe src="https://www.youtube.com/embed/R_Ob-fupzKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video" id="cont">
+                        <iframe id="player" src="https://www.youtube.com/embed/R_Ob-fupzKg?version=3&enablejsapi=1&autoplay=1&mute=1&autohide=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </li>
                 <li class="mySlides">
@@ -53,24 +53,26 @@
                     <a href="https://cdn2.unrealengine.com/egs-hitman3-iointeractiveas-g1a-03-1920x1080-604022937.jpg" style="width:100%" data-lightbox="example-set"><img src="https://cdn2.unrealengine.com/egs-hitman3-iointeractiveas-g1a-03-1920x1080-604022937.jpg" style="width:100%"></a>
                 </li>
             </ul>
-            <a href="javascript:void(0)" class="prev" id="prev" style="z-index: 99999;" onclick="plusSlides(-1)"><img HungBokGames src="../../../image/left.png" width="30px" ondragstart="return false" -webkit-user-drag: none;></a>
-            <a href="javascript:void(0)" class="next" id="next" style="z-index: 99999;" onclick="plusSlides(1)"><img HungBokGames src="../../../image/right.png" width="30px" ondragstart="return false" -webkit-user-drag: none;></a>
+            <div id="close">
+                <a href="javascript:void(0)" class="prev" id="prev" style="z-index: 99999;" onclick="plusSlides(-1)"><img HungBokGames src="../../../image/left.png" width="30px" ondragstart="return false" -webkit-user-drag: none;></a>
+                <a href="javascript:void(0)" class="next" id="next" style="z-index: 99999;" onclick="plusSlides(1)"><img HungBokGames src="../../../image/right.png" width="30px" ondragstart="return false" -webkit-user-drag: none;></a>
+            </div>
         </div>
             <div class="row">
-                <div class="column">
+                <div class="column" id="play">
                     <img class="demo cursor" src="https://img.youtube.com/vi/R_Ob-fupzKg/maxresdefault.jpg" style="width:100%" onclick="currentSlide(1)">
                     <img class="play-button" HungBokGames src="../../../image/play-button.png" width="30px" onclick="currentSlide(1)">
                 </div>
-                <div class="column">
+                <div class="column" id="closed">
                     <img class="demo cursor" src="https://cdn2.unrealengine.com/egs-hitman3-iointeractiveas-g1a-00-1920x1080-604023665.jpg" style="width:100%" onclick="currentSlide(2)">
                 </div>
-                <div class="column">
+                <div class="column" id="closed1">
                     <img class="demo cursor" src="https://cdn2.unrealengine.com/egs-hitman3-iointeractiveas-g1a-01-1920x1080-604024404.jpg" style="width:100%" onclick="currentSlide(3)">
                 </div>
-                <div class="column">
+                <div class="column" id="closed2">
                     <img class="demo cursor" src="https://cdn2.unrealengine.com/egs-hitman3-iointeractiveas-g1a-02-1920x1080-604024523.jpg" style="width:100%" onclick="currentSlide(4)">
                 </div>
-                <div class="column">
+                <div class="column" id="closed3">
                     <img class="demo cursor" src="https://cdn2.unrealengine.com/egs-hitman3-iointeractiveas-g1a-03-1920x1080-604022937.jpg" style="width:100%" onclick="currentSlide(5)">
                 </div>
             </div>
@@ -280,11 +282,12 @@
         </div>
     </div>
 </footer>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js?ver=20210319"></script>
-<script type="text/javascript" src="http://code.jquery.com/ui/1.11.0/jquery-ui.js?ver=20210319"></script> 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js?ver=20210319"></script>
-<script type="text/javascript" src="../../../javascript/jquery.min.js?ver=20210319"></script>
-<script type="text/javascript" src="../../../javascript/lightbox.min.js?ver=20210319"></script>
-<script type="text/javascript" src="../../../javascript/gallery.js?ver=20210319"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script> 
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="../../../javascript/jquery.min.js"></script>
+<script type="text/javascript" src="../../../javascript/lightbox.min.js"></script>
+<script type="text/javascript" src="../../../javascript/gallery.js"></script>
+<script type="text/javascript" src="../../../javascript/youtube-video.js"></script>
 </body>
 </html>

@@ -43,6 +43,7 @@ html {
 	margin-bottom: 5px;
 	color: white;
 	text-shadow: 1px 1px 5px black;
+	z-index: 1;
 	-ms-user-select: none;
 	-moz-user-select: -moz-none;
 	-webkit-user-select: none;
@@ -65,10 +66,16 @@ html {
 	background-position: center;
 	opacity: 1.5;
 	position: absolute;
-	z-index: -2;
+	z-index: 0;
 	filter: blur(5px);
 	overflow: hidden;
 	object-fit: fill;
+}
+.HungBokGames {
+	This source code is produced by HungBok.
+}
+.title-text {
+	z-index: 3;
 }
 .HungBokGames {
 	This source code is produced by HungBok.
@@ -91,7 +98,7 @@ html {
 	background-position: center;
 	opacity: 1.5;
 	position: absolute;
-	z-index: -2;
+	z-index: 0;
 	filter: blur(5px);
 	overflow: hidden;
 	object-fit: fill;
@@ -105,6 +112,7 @@ html {
 	border: 0px;
 	margin-top: 5px;
 	box-shadow: 1px 1px 5px black;
+	z-index: 2;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -115,6 +123,7 @@ html {
 	border: 0px;
 	margin-top: 5px;
 	box-shadow: 1px 1px 5px black;
+	z-index: 2;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -140,7 +149,7 @@ html {
 	align-items: center;
 	text-align: center;
 	text-transform: uppercase;
-	color: #2f2f2f;
+	color: white;
 	background-color: #1b1b1b;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -231,8 +240,101 @@ html {
 .HungBokGames {
     This source code is produced by HungBok.
 }
-.small-square-platforms {
-	filter: brightness(1000%);
+.small-square-platforms,
+.Consoles,
+.no-platform,
+.NS,
+.NS_n9,
+.NS_s,
+.NS-PS4,
+.NS-PS4_n9,
+.NS-PS4-PS5,
+.NS-PS4-PS5-XBO,
+.NS-PS4-PS5-XBO-XSX,
+.NS-PS4-XBO,
+.NS-PS4-XBO_n9,
+.NS-PS4-XBO-Stadia,
+.NS-PS4-XBO-XSX,
+.NS-PS5-XSX,
+.NS-XBO,
+.NS-XBO_n9,
+.NS-XBO-XSX,
+.PC-Consoles,
+.PS3_s,
+.PS4,
+.PS4_n9,
+.PS4_s,
+.PS4-PS5,
+.PS4-PS5-XBO-XSX,
+.PS4-XBO,
+.PS4-XBO_n9,
+.PS4-XBO_s,
+.PS4-XBO-XSX,
+.PS4-XBO-XSX_n5,
+.PS5,
+.PS5-XSX,
+.PS5-XSX-Stadia,
+.Stadia,
+.Stadia_n9,
+.Unknown,
+.Unknown_s,
+.Win,
+.Win_n9,
+.Windows-Consoles,
+.Win-NS,
+.Win-NS_n9,
+.Win-NS-PS4,
+.Win-NS-PS4_n5,
+.Win-NS-PS4_n9,
+.Win-NS-PS4-PS5,
+.Win-NS-PS4-PS5-XBO,
+.Win-NS-PS4-PS5-XBO-XSX,
+.Win-NS-PS4-PS5-XBO-XSX-Stadia,
+.Win-NS-PS4-XBO,
+.Win-NS-PS4-XBO_n5,
+.Win-NS-PS4-XBO_n9,
+.Win-NS-PS4-XBO-Stadia,
+.Win-NS-PS4-XBO-Stadia_n9,
+.Win-NS-PS4-XBO-XSX,
+.Win-NS-PS5-XSX,
+.Win-NS-Stadia,
+.Win-NS-XBO,
+.Win-NS-XBO_n9,
+.Win-PS4,
+.Win-PS4_n9,
+.Win-PS4-PS5,
+.Win-PS4-PS5-Stadia,
+.Win-PS4-PS5-XBO,
+.Win-PS4-PS5-XBO-XSX,
+.Win-PS4-PS5-XBO-XSX-Stadia,
+.Win-PS4-XBO,
+.Win-PS4-XBO_n5,
+.Win-PS4-XBO_n9,
+.Win-PS4-XBO_s,
+.Win-PS4-XBO-Stadia,
+.Win-PS4-XBO-Stadia_n9,
+.Win-PS4-XBO-XSX,
+.Win-PS4-XBO-XSX_n5,
+.Win-PS4-XBO-XSX-Stadia,
+.Win-PS4-XBO-XSX-Stadia_n5,
+.Win-PS5,
+.Win-PS5-XBO-XSX,
+.Win-PS5-XSX,
+.Win-Stadia,
+.Win-Stadia_n9,
+.Win-XBO,
+.Win-XBO_n9,
+.Win-XBO-XSX,
+.Win-XBO-XSX_n5,
+.Win-XSX,
+.Win-XSX_n5,
+.XBO,
+.XBO_n9,
+.XBO-XSX,
+.XBO-XSX_n5,
+.XSX,
+.XSX_n5 {
+	filter: brightness(450%);
 }
 .section-content-text {
 	text-align: center;
@@ -287,6 +389,20 @@ html {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	position: absolute;
+}
+.scroll-container img {
+	filter: brightness(450%);
+}
+.scroll-container-down img {
+	filter: brightness(450%);
+}
+.scroll-container a {
+	color: #1b1b1b;
+	line-height: 2.25;
+}
+.scroll-container-down a {
+	color: #1b1b1b;
+	line-height: 2.25;
 }
 .HungBokGames {
     This source code is produced by HungBok.
@@ -527,7 +643,6 @@ html {
 	display: inline-block;
 	font-family: 'Open Sans';
 	width: 200px;
-	color: black;
 	margin: 5px;
 	margin-left: 100px;
 	margin-right: 100px;
@@ -575,7 +690,6 @@ html {
 	display: inline-block;
 	font-family: 'Open Sans';
 	width: 300px;
-	color: black;
 	margin: 5px;
 	box-shadow: 1px red;
 	word-break: keep-all;
@@ -634,14 +748,14 @@ html {
     This source code is produced by HungBok.
 }
 .link:visited {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 .HungBokGames {
     This source code is produced by HungBok.
 }
 .link:hover {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 .HungBokGames {
@@ -729,7 +843,6 @@ html {
 }
 .card-date {
 	font-family: 'Open Sans';
-	color: black;
 	text-transform: capitalize;
 	margin: 0;
 	font-weight: bold;
@@ -739,7 +852,6 @@ html {
 }
 .section-date {
 	font-family: 'Do Hyeon';
-	color: black;
 	text-transform: capitalize;
 	margin: 0;
 	font-weight: none;

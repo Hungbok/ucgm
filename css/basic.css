@@ -297,6 +297,14 @@ html {
 .HungBokGames {
     This source code is produced by HungBok.
 }
+.scroll-container a {
+	color: #e6c300;
+	line-height: 2.25;
+}
+.scroll-container-down a {
+	color: #e6c300;
+	line-height: 2.25;
+}
 .game-card {
 	width: 100%;
 	margin: 0 auto;
