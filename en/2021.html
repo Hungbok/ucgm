@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="../css/basic.css?ver={$cssVer}">
     <link rel="stylesheet" href="../css/games.css?ver={$cssVer}">
     <link rel="stylesheet" href="../css/platforms.css?ver={$cssVer}">
+    <link rel="stylesheet" href="../css/component.css?ver={$cssVer}">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QLX9EF7ECJ"></script>
+    <script src="js/modernizr.custom.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -86,36 +88,63 @@
         </div>
     </div>
     <div class="game-card" HungBokGames>
-        <div class="card" HungBokGames>
-            <a class="link" href="./games/werewolf-the-apocalypse-heart-of-the-forest/home" HungBokGames>
-                <div class="card-details" HungBokGames>
-                    <p class="werewolf-the-apocalypse-heart-of-the-forest" HungBokGames></p>
-                    <p class="card-title2" HungBokGames>Werewolf: The Apocalypse – Heart of the Forest</p>
-                    <p class="card-date" HungBokGames>January 07, 2021</p>
-                    <p class="NS" HungBokGames></p>
-                </div>
-            </a>
-        </div>
-        <div class="card" HungBokGames>
-            <a class="link" href="./games/iris-fall/home" HungBokGames>
-                <div class="card-details" HungBokGames>
-                    <p class="iris-fall" HungBokGames></p>
-                    <p class="card-title" HungBokGames>Iris.Fall</p>
-                    <p class="card-date" HungBokGames>January 08, 2021</p>
-                    <p class="NS-PS4-XBO" HungBokGames></p>
-                </div>
-            </a>
-        </div>
-        <div class="card" HungBokGames>
-            <a class="link" href="./collection/five-nights-at-freddys-core-collection/home" HungBokGames>
-                <div class="card-details" HungBokGames>
-                    <p class="five-nights-at-freddys-core-collection" HungBokGames></p>
-                    <p class="card-title2" HungBokGames>Five Nights at Freddy's: Core Collection</p>
-                    <p class="card-date" HungBokGames>January 12, 2021</p>
-                    <p class="NS-PS4-XBO" HungBokGames></p>
-                </div>
-            </a>
-        </div>
+        <li class="card-container-game-crad">
+            <figure class="game-card-figure">
+                <a class="link" href="./games/werewolf-the-apocalypse-heart-of-the-forest/home" HungBokGames>
+                    <img class="game-card-image" src="../image/games/werewolf-the-apocalypse-heart-of-the-forest/HBG-werewolf-the-apocalypse-heart-of-the-forest-HUNGBOKGAMES.jpg">
+                    <figcaption class="game-card-figcaption">
+                        <h3 class="game-card-title">Werewolf: The Apocalypse – Heart of the Forest</h3>
+                        <br>
+                        <span class="game-card-date">January 07, 2021</span>
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/Stadia.png" style="right: 10px; opacity:0.25;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/XSX.png" style="right: 30px; opacity:0.25;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/XBO.png" style="right: 50px; opacity:0.25;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/PS5.png" style="right: 70px; opacity:0.25;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/PS4.png" style="right: 90px; opacity:0.25;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/NS.png" style="right: 110px; opacity:1;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/Win.png" style="right: 130px; opacity:0.25;">
+                    </figcaption>
+                </a>
+            </figure>
+        </li>
+        <li class="card-container-game-crad">
+            <figure class="game-card-figure">
+                <a class="link" href="./games/iris-fall/home" HungBokGames>
+                    <img class="game-card-image" src="../image/games/iris-fall/HBG-iris-fall-HUNGBOKGAMES.jpg">
+                    <figcaption class="game-card-figcaption">
+                        <h3 class="game-card-title">Iris.Fall</h3>
+                        <br>
+                        <span class="game-card-date">January 08, 2021</span>
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/Stadia.png" style="right: 10px; opacity:0.25;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/XSX.png" style="right: 30px; opacity:0.25;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/XBO.png" style="right: 50px; opacity:1;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/PS5.png" style="right: 70px; opacity:0.25;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/PS4.png" style="right: 90px; opacity:1;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/NS.png" style="right: 110px; opacity:1;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/Win.png" style="right: 130px; opacity:0.25;">
+                    </figcaption>
+                </a>
+            </figure>
+        </li>
+        <li class="card-container-game-crad">
+            <figure class="game-card-figure">
+                <a class="link" href="./collection/five-nights-at-freddys-core-collection/home" HungBokGames>
+                    <img class="game-card-image" src="../image/collection/five-nights-at-freddys-core-collection/HBG-five-nights-at-freddys-core-collection-HUNGBOKGAMES.jpg">
+                    <figcaption class="game-card-figcaption">
+                        <h3 class="game-card-title">Five Nights at Freddy's: Core Collection</h3>
+                        <br>
+                        <span class="game-card-date">January 12, 2021</span>
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/Stadia.png" style="right: 10px; opacity:0.25;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/XSX.png" style="right: 30px; opacity:0.25;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/XBO.png" style="right: 50px; opacity:1;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/PS5.png" style="right: 70px; opacity:0.25;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/PS4.png" style="right: 90px; opacity:1;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/NS.png" style="right: 110px; opacity:1;">
+                        <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/Win.png" style="right: 130px; opacity:0.25;">
+                    </figcaption>
+                </a>
+            </figure>
+        </li>
         <div class="card" HungBokGames>
             <a class="link" href="./games/mxgp-2020-the-official-motocross-videogame/home" HungBokGames>
                 <div class="card-details" HungBokGames>
@@ -4855,6 +4884,67 @@
             <b class="developer">Made by HungBok</b>
         </div>
         </div>
+    </div>
+    <div class="card-container">
+        <ul class="card-container-crads">
+            <li class="card-container-game-crad">
+                <figure class="game-card-figure">
+                    <a class="link" href="./games/werewolf-the-apocalypse-heart-of-the-forest/home" HungBokGames>
+                        <img class="game-card-image" src="../image/games/werewolf-the-apocalypse-heart-of-the-forest/HBG-werewolf-the-apocalypse-heart-of-the-forest-HUNGBOKGAMES.jpg">
+                        <figcaption class="game-card-figcaption">
+                            <h3 class="game-card-title">Werewolf: The Apocalypse – Heart of the Forest</h3>
+                            <br>
+                            <span class="game-card-date">January 07, 2021</span>
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/Stadia.png" style="right: 10px; opacity:0.25;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/XSX.png" style="right: 30px; opacity:0.25;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/XBO.png" style="right: 50px; opacity:0.25;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/PS5.png" style="right: 70px; opacity:0.25;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/PS4.png" style="right: 90px; opacity:0.25;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/NS.png" style="right: 110px; opacity:1;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/Win.png" style="right: 130px; opacity:0.25;">
+                        </figcaption>
+                    </a>
+                </figure>
+            </li>
+            <li class="card-container-game-crad">
+                <figure class="game-card-figure">
+                    <a class="link" href="./games/iris-fall/home" HungBokGames>
+                        <img class="game-card-image" src="../image/games/iris-fall/HBG-iris-fall-HUNGBOKGAMES.jpg">
+                        <figcaption class="game-card-figcaption">
+                            <h3 class="game-card-title">Iris.Fall</h3>
+                            <br>
+                            <span class="game-card-date">January 08, 2021</span>
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/Stadia.png" style="right: 10px; opacity:0.25;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/XSX.png" style="right: 30px; opacity:0.25;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/XBO.png" style="right: 50px; opacity:1;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/PS5.png" style="right: 70px; opacity:0.25;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/PS4.png" style="right: 90px; opacity:1;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/NS.png" style="right: 110px; opacity:1;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/Win.png" style="right: 130px; opacity:0.25;">
+                        </figcaption>
+                    </a>
+                </figure>
+            </li>
+            <li class="card-container-game-crad">
+                <figure class="game-card-figure">
+                    <a class="link" href="./collection/five-nights-at-freddys-core-collection/home" HungBokGames>
+                        <img class="game-card-image" src="../image/collection/five-nights-at-freddys-core-collection/HBG-five-nights-at-freddys-core-collection-HUNGBOKGAMES.jpg">
+                        <figcaption class="game-card-figcaption">
+                            <h3 class="game-card-title">Five Nights at Freddy's: Core Collection</h3>
+                            <br>
+                            <span class="game-card-date">January 12, 2021</span>
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/Stadia.png" style="right: 10px; opacity:0.25;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/XSX.png" style="right: 30px; opacity:0.25;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/XBO.png" style="right: 50px; opacity:1;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/PS5.png" style="right: 70px; opacity:0.25;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/PS4.png" style="right: 90px; opacity:1;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/NS.png" style="right: 110px; opacity:1;">
+                            <img class="game-card-platform" src="D:/Users/HungBok/Files/HungBokGames/platform/individual/small-square/Win.png" style="right: 130px; opacity:0.25;">
+                        </figcaption>
+                    </a>
+                </figure>
+            </li>
+        </ul>
     </div>
 </footer>
 </body>

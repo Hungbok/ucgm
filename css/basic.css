@@ -623,7 +623,7 @@ html {
 .HungBokGames {
     This source code is produced by HungBok.
 }
-.card-details {
+.card-details1 {
 	transform: scale(1);
   	-webkit-transform: scale(1);
  	-moz-transform: scale(1);
@@ -634,7 +634,7 @@ html {
 .HungBokGames {
     This source code is produced by HungBok.
 }
-.card-details:hover {
+.card-details1:hover {
 	transform: scale(1.025);
   	-webkit-transform: scale(1.025);
   	-moz-transform: scale(1.025);
