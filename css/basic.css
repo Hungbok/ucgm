@@ -77,7 +77,7 @@ html {
 	min-height: 616.891px;
 	margin-bottom: 5px;
 	content: " ";
-	background-color: black; url(https://cdn.cloudflare.steamstatic.com/steam/apps/319510/page_bg_raw.jpg?t=1421526588);
+	background-color: #1b1b1b; url(https://cdn.cloudflare.steamstatic.com/steam/apps/319510/page_bg_raw.jpg?t=1421526588);
 	background-attachment: fixed;
 	background-position: center;
 	opacity: 1.5;
@@ -731,6 +731,16 @@ html {
 .HungBokGames {
     This source code is produced by HungBok.
 }
+.section-date {
+	font-family: 'Do Hyeon';
+	color: black;
+	text-transform: capitalize;
+	margin: 0;
+	font-weight: none;
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
 .early-access {
 	padding-top: 4px;
 	padding-bottom: 4px;
@@ -859,6 +869,13 @@ html {
     This source code is produced by HungBok.
 }
 .card-date div {
+    position: relative;
+    display: inline-block;
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
+.section-date div {
     position: relative;
     display: inline-block;
 }
@@ -1100,6 +1117,48 @@ html {
 .HungBokGames {
     This source code is produced by HungBok.
 }
+.section-additional-description {
+  display: none;
+  position: absolute;
+  width: 284px;
+  padding: 8px;
+  top: 35px;
+  z-index: 999999999;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;  
+  border-radius: 5px;
+  background: black;
+  color: white;
+  font-size: 12px;
+  vertical-align: middle;
+  text-transform: none;
+  font-weight: normal;
+  opacity: 0.75;
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
+.section-additional-description:after {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -10px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: black;
+  border-width: 10px;
+  vertical-align: middle;
+  pointer-events: none;
+  content: " ";
+  opacity: unset;
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
 .additional-description-early {
   display: none;
   position: absolute;
@@ -1236,6 +1295,18 @@ html {
 .HungBokGames {
     This source code is produced by HungBok.
 }
+.card-date-us:hover + .section-additional-description {
+  display: block;
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
+.card-date-jp:hover + .section-additional-description {
+  display: block;
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
 .card-date-early:hover + .additional-description-early {
   display: block;
 }
@@ -1313,6 +1384,7 @@ html {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  background-color: black;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -1356,11 +1428,14 @@ html {
   padding: 2px 16px;
   color: white;
 }
-
+.row {
+	background-color: black;
+}
 .row:after {
   content: "";
   display: table;
   clear: both;
+  background-color: black;
 }
 
 /* Six columns side by side */
