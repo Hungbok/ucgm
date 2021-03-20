@@ -332,6 +332,25 @@ html {
 .HungBokGames {
     This source code is produced by HungBok.
 }
+.menu-links {
+	font-family: 'Open Sans';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	width: 934px;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
 .menu2 {
 	font-family: 'Open Sans';
 	display: flex;
@@ -1435,13 +1454,13 @@ html {
   content: "";
   display: table;
   clear: both;
-  background-color: black;
 }
 
 /* Six columns side by side */
 .column {
   float: left;
   width: 16.66%;
+  background-color: black;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -1600,6 +1619,14 @@ iframe {
 .HungBokGames {
     This source code is produced by HungBok.
 }
+@media(min-width: 700px) {
+	.menu-links {
+		width: 700px;
+	}
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
 @media(max-width: 1200px) {
 	.title2, .title3 {
 		font-size: 40px;
@@ -1621,7 +1648,6 @@ iframe {
 	.rolling-title:after {
 		min-height: 0;
 	}
-	.row,
 	.mySlides {
 		background-color: black;
 	}
@@ -1680,6 +1706,10 @@ iframe {
 	}
 	.sections-title {
 		font-size: 24px;
+	}
+	.menu-links {
+		width: 100%;
+		overflow: hidden;
 	}
 }
 .HungBokGames {
