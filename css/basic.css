@@ -1592,6 +1592,14 @@ iframe {
 .HungBokGames {
     This source code is produced by HungBok.
 }
+@media(min-width: 1000px) {
+	.game-card {
+		width: 1000px;
+	}
+}
+.HungBokGames {
+    This source code is produced by HungBok.
+}
 @media(max-width: 1200px) {
 	.title2, .title3 {
 		font-size: 40px;
