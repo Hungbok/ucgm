@@ -239,102 +239,371 @@ html {
 }
 .HungBokGames {
     This source code is produced by HungBok.
+}.card-container {
+    display: block;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
 }
-.small-square-platforms,
-.Consoles,
-.no-platform,
-.NS,
-.NS_n9,
-.NS_s,
-.NS-PS4,
-.NS-PS4_n9,
-.NS-PS4-PS5,
-.NS-PS4-PS5-XBO,
-.NS-PS4-PS5-XBO-XSX,
-.NS-PS4-XBO,
-.NS-PS4-XBO_n9,
-.NS-PS4-XBO-Stadia,
-.NS-PS4-XBO-XSX,
-.NS-PS5-XSX,
-.NS-XBO,
-.NS-XBO_n9,
-.NS-XBO-XSX,
-.PC-Consoles,
-.PS3_s,
-.PS4,
-.PS4_n9,
-.PS4_s,
-.PS4-PS5,
-.PS4-PS5-XBO-XSX,
-.PS4-XBO,
-.PS4-XBO_n9,
-.PS4-XBO_s,
-.PS4-XBO-XSX,
-.PS4-XBO-XSX_n5,
-.PS5,
-.PS5-XSX,
-.PS5-XSX-Stadia,
-.Stadia,
-.Stadia_n9,
-.Unknown,
-.Unknown_s,
-.Win,
-.Win_n9,
-.Windows-Consoles,
-.Win-NS,
-.Win-NS_n9,
-.Win-NS-PS4,
-.Win-NS-PS4_n5,
-.Win-NS-PS4_n9,
-.Win-NS-PS4-PS5,
-.Win-NS-PS4-PS5-XBO,
-.Win-NS-PS4-PS5-XBO-XSX,
-.Win-NS-PS4-PS5-XBO-XSX-Stadia,
-.Win-NS-PS4-XBO,
-.Win-NS-PS4-XBO_n5,
-.Win-NS-PS4-XBO_n9,
-.Win-NS-PS4-XBO-Stadia,
-.Win-NS-PS4-XBO-Stadia_n9,
-.Win-NS-PS4-XBO-XSX,
-.Win-NS-PS5-XSX,
-.Win-NS-Stadia,
-.Win-NS-XBO,
-.Win-NS-XBO_n9,
-.Win-PS4,
-.Win-PS4_n9,
-.Win-PS4-PS5,
-.Win-PS4-PS5-Stadia,
-.Win-PS4-PS5-XBO,
-.Win-PS4-PS5-XBO-XSX,
-.Win-PS4-PS5-XBO-XSX-Stadia,
-.Win-PS4-XBO,
-.Win-PS4-XBO_n5,
-.Win-PS4-XBO_n9,
-.Win-PS4-XBO_s,
-.Win-PS4-XBO-Stadia,
-.Win-PS4-XBO-Stadia_n9,
-.Win-PS4-XBO-XSX,
-.Win-PS4-XBO-XSX_n5,
-.Win-PS4-XBO-XSX-Stadia,
-.Win-PS4-XBO-XSX-Stadia_n5,
-.Win-PS5,
-.Win-PS5-XBO-XSX,
-.Win-PS5-XSX,
-.Win-Stadia,
-.Win-Stadia_n9,
-.Win-XBO,
-.Win-XBO_n9,
-.Win-XBO-XSX,
-.Win-XBO-XSX_n5,
-.Win-XSX,
-.Win-XSX_n5,
-.XBO,
-.XBO_n9,
-.XBO-XSX,
-.XBO-XSX_n5,
-.XSX,
-.XSX_n5 {
+.card-container-game-crad {
+    display: inline-block;
+    margin: 5px;
+    text-align: left;
+    position: relative;
+}
+.card-container-game-crad-hidden {
+	position: absolute;
+	visibility: hidden;
+	left: 50%;
+	transform: translate(-50%);
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-figure {
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+}
+.game-card-figure:hover .game-card-image {
+	-webkit-transform: translateY(-50px);
+	-moz-transform: translateY(-50px);
+	-ms-transform: translateY(-50px);
+	transform: translateY(-50px);
+}
+.game-card-figure .game-card-image {
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+	width: 300px;
+    display: block;
+    position: relative;
+    border-radius: 5px 5px 5px 5px;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-figcaption {
+    height: 100px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #1b1b1b;
+    color: white;
+    display: block;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-figure:hover .game-card-figcaption {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+.game-card-title {
+    font-family: 'Noto Sans';
+    text-transform: uppercase;
+    position: absolute;
+	line-height: 100%;
+    margin: 10px;
+    padding: 0;
+	top: 5px;
+    color: white;
+    font-size: 14px;
+    display: block;
+    font-weight: bold;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-date {
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+    position: absolute;
+    margin: 10px;
+    padding: 0;
+	bottom: 25px;
+	right: 0px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform {
+    opacity: 0.25;
+    position: absolute;
+    width: 20px;
+    bottom: 10px;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: block;
+    border-radius: 5px 5px 5px 5px;
 	filter: brightness(450%);
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-figcaption-dlc {
+    height: 100px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #a655b2;
+    color: black;
+    display: block;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-figure:hover .game-card-figcaption-dlc {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+.game-card-figcaption-dlc-text {
+    height: 100px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    display: block;
+    opacity: 0.75;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-figure:hover .game-card-figcaption-dlc-text {
+	-webkit-transform: translateY(-75%);
+	-moz-transform: translateY(-75%);
+	-ms-transform: translateY(-75%);
+	transform: translateY(-75%);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+.game-card-figcaption-western-text {
+    height: 100px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    display: block;
+    opacity: 0.75;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-figure:hover .game-card-figcaption-western-text {
+	-webkit-transform: translateY(-75%);
+	-moz-transform: translateY(-75%);
+	-ms-transform: translateY(-75%);
+	transform: translateY(-75%);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+.game-card-figcaption-eastern-text {
+    height: 100px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    display: block;
+    opacity: 0.75;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-figure:hover .game-card-figcaption-eastern-text {
+	-webkit-transform: translateY(-75%);
+	-moz-transform: translateY(-75%);
+	-ms-transform: translateY(-75%);
+	transform: translateY(-75%);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+.game-card-title-dlc-text {
+    font-family: 'Noto Sans';
+    text-transform: none;
+    position: absolute;
+	line-height: 100%;
+    margin: 10px;
+    padding: 0;
+	top: 20px;
+    color: white;
+    font-size: 14px;
+    display: block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.game-card-title-dlc-text::before {
+    opacity: 1;
+    content: 'This is a type of DownLoadable Content or Update, not a main game.';
+}
+.game-card-title-western-text {
+    font-family: 'Noto Sans';
+    text-transform: none;
+    position: absolute;
+	line-height: 100%;
+    margin: 10px;
+    padding: 0;
+	top: 10px;
+    color: white;
+    font-size: 14px;
+    display: block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.game-card-title-western-text::before {
+    opacity: 1;
+    content: 'This release date is the western or worldwide release of a previously regional exclusive game.';
+}
+.game-card-title-eastern-text {
+    font-family: 'Noto Sans';
+    text-transform: none;
+    position: absolute;
+	line-height: 100%;
+    margin: 10px;
+    padding: 0;
+	top: 25px;
+    color: white;
+    font-size: 14px;
+    display: block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.game-card-title-eastern-text::before {
+    opacity: 1;
+    content: 'The release date is for Japan or Asia only.';
 }
 .section-content-text {
 	text-align: center;

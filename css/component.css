@@ -8,24 +8,24 @@
 	user-select: none;
 	-webkit-user-drag: none;
 }
-.card-container-crads {
-    padding: 20px 20px 100px 20px;
-    max-width: 1800px;
-    margin: 0 auto;
-    list-style: none;
-    text-align: center;
-	display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
 .card-container-game-crad {
     display: inline-block;
     margin: 5px;
     text-align: left;
     position: relative;
+}
+.card-container-game-crad-hidden {
+	position: absolute;
+	visibility: hidden;
+	left: 50%;
+	transform: translate(-50%);
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
 }
 .game-card-figure {
     overflow: hidden;
@@ -39,7 +39,7 @@
 	-ms-transform: translateY(-50px);
 	transform: translateY(-50px);
 }
-.game-card-image {
+.game-card-figure .game-card-image {
     -webkit-transition: -webkit-transform 0.4s;
     -moz-transition: -moz-transform 0.4s;
     transition: transform 0.4s;
@@ -48,6 +48,13 @@
     display: block;
     position: relative;
     border-radius: 5px 5px 5px 5px;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
 }
 .game-card-figcaption {
     height: 100px;
@@ -70,6 +77,13 @@
     -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
     -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
     transition: transform 0.4s, opacity 0.1s 0.3s;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
 }
 .game-card-figure:hover .game-card-figcaption {
 	opacity: 1;
@@ -138,4 +152,214 @@
 	-webkit-touch-callout: none;
 	user-select: none;
 	-webkit-user-drag: none;
+}
+.game-card-figcaption-dlc {
+    height: 100px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #a655b2;
+    color: black;
+    display: block;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-figure:hover .game-card-figcaption-dlc {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+.game-card-figcaption-dlc-text {
+    height: 100px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    display: block;
+    opacity: 0.75;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-figure:hover .game-card-figcaption-dlc-text {
+	-webkit-transform: translateY(-75%);
+	-moz-transform: translateY(-75%);
+	-ms-transform: translateY(-75%);
+	transform: translateY(-75%);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+.game-card-figcaption-western-text {
+    height: 100px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    display: block;
+    opacity: 0.75;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-figure:hover .game-card-figcaption-western-text {
+	-webkit-transform: translateY(-75%);
+	-moz-transform: translateY(-75%);
+	-ms-transform: translateY(-75%);
+	transform: translateY(-75%);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+.game-card-figcaption-eastern-text {
+    height: 100px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    display: block;
+    opacity: 0.75;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-figure:hover .game-card-figcaption-eastern-text {
+	-webkit-transform: translateY(-75%);
+	-moz-transform: translateY(-75%);
+	-ms-transform: translateY(-75%);
+	transform: translateY(-75%);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+.game-card-title-dlc-text {
+    font-family: 'Noto Sans';
+    text-transform: none;
+    position: absolute;
+	line-height: 100%;
+    margin: 10px;
+    padding: 0;
+	top: 20px;
+    color: white;
+    font-size: 14px;
+    display: block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.game-card-title-dlc-text::before {
+    opacity: 1;
+    content: 'This is a type of DownLoadable Content or Update, not a main game.';
+}
+.game-card-title-western-text {
+    font-family: 'Noto Sans';
+    text-transform: none;
+    position: absolute;
+	line-height: 100%;
+    margin: 10px;
+    padding: 0;
+	top: 10px;
+    color: white;
+    font-size: 14px;
+    display: block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.game-card-title-western-text::before {
+    opacity: 1;
+    content: 'This release date is the western or worldwide release of a previously regional exclusive game.';
+}
+.game-card-title-eastern-text {
+    font-family: 'Noto Sans';
+    text-transform: none;
+    position: absolute;
+	line-height: 100%;
+    margin: 10px;
+    padding: 0;
+	top: 25px;
+    color: white;
+    font-size: 14px;
+    display: block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.game-card-title-eastern-text::before {
+    opacity: 1;
+    content: 'The release date is for Japan or Asia only.';
 }

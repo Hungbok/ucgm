@@ -903,6 +903,7 @@ html {
 .japan {
 	height: 10px;
 	border: 1px solid black;
+	float: none;
 	-ms-user-select: none;
 	-moz-user-select: -moz-none;
 	-webkit-user-select: none;
