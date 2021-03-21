@@ -1,837 +1,325 @@
-.Consoles {
-    height: 70.42px;
-    background-image: url(../platform/Consoles.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.no-platform {
-    height: 70.42px;
-    background-image: url(../platform/no-platform.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS {
-    height: 70.42px;
-    background-image: url(../platform/NS.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS_n9 {
-    height: 70.42px;
-    background-image: url(../platform/NS_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS_s {
-    height: 70.42px;
-    background-image: url(../platform/NS_s.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS-PS4 {
-    height: 70.42px;
-    background-image: url(../platform/NS-PS4.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS-PS4_n9 {
-    height: 70.42px;
-    background-image: url(../platform/NS-PS4_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS-PS4-PS5 {
-    height: 70.42px;
-    background-image: url(../platform/NS-PS4-PS5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS-PS4-PS5-XBO {
-    height: 70.42px;
-    background-image: url(../platform/NS-PS4-PS5-XBO.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS-PS4-PS5-XBO-XSX {
-    height: 70.42px;
-    background-image: url(../platform/NS-PS4-PS5-XBO-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS-PS4-XBO {
-    height: 70.42px;
-    background-image: url(../platform/NS-PS4-XBO.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS-PS4-XBO_n9 {
-    height: 70.42px;
-    background-image: url(../platform/NS-PS4-XBO_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS-PS4-XBO-Stadia {
-    height: 70.42px;
-    background-image: url(../platform/NS-PS4-XBO-Stadia.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS-PS4-XBO-XSX {
-    height: 70.42px;
-    background-image: url(../platform/NS-PS4-XBO-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS-PS5-XSX {
-    height: 70.42px;
-    background-image: url(../platform/NS-PS5-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS-XBO {
-    height: 70.42px;
-    background-image: url(../platform/NS-XBO.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS-XBO_n9 {
-    height: 70.42px;
-    background-image: url(../platform/NS-XBO_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.NS-XBO-XSX {
-    height: 70.42px;
-    background-image: url(../platform/NS-XBO-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PC-Consoles {
-    height: 70.42px;
-    background-image: url(../platform/PC-Consoles.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS3_s {
-    height: 70.42px;
-    background-image: url(../platform/PS3_s.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS4 {
-    height: 70.42px;
-    background-image: url(../platform/PS4.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS4_n9 {
-    height: 70.42px;
-    background-image: url(../platform/PS4_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS4_s {
-    height: 70.42px;
-    background-image: url(../platform/PS4_s.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS4-PS5 {
-    height: 70.42px;
-    background-image: url(../platform/PS4-PS5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS4-PS5-XBO-XSX {
-    height: 70.42px;
-    background-image: url(../platform/PS4-PS5-XBO-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS4-XBO {
-    height: 70.42px;
-    background-image: url(../platform/PS4-XBO.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS4-XBO_n9 {
-    height: 70.42px;
-    background-image: url(../platform/PS4-XBO_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS4-XBO_s {
-    height: 70.42px;
-    background-image: url(../platform/PS4-XBO_s.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS4-XBO-XSX {
-    height: 70.42px;
-    background-image: url(../platform/PS4-XBO-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS4-XBO-XSX_n5 {
-    height: 70.42px;
-    background-image: url(../platform/PS4-XBO-XSX_n5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS5 {
-    height: 70.42px;
-    background-image: url(../platform/PS5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS5-XSX {
-    height: 70.42px;
-    background-image: url(../platform/PS5-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.PS5-XSX-Stadia {
-    height: 70.42px;
-    background-image: url(../platform/PS5-XSX-Stadia.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Stadia {
-    height: 70.42px;
-    background-image: url(../platform/Stadia.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Stadia_n9 {
-    height: 70.42px;
-    background-image: url(../platform/Stadia_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Unknown {
-    height: 70.42px;
-    background-image: url(../platform/Unknown.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Unknown_s {
-    height: 70.42px;
-    background-image: url(../platform/Unknown_s.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win {
-    height: 70.42px;
-    background-image: url(../platform/Win.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win_n9 {
-    height: 70.42px;
-    background-image: url(../platform/Win_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Windows-Consoles {
-    height: 70.42px;
-    background-image: url(../platform/Windows-Consoles.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS_n9 {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS4 {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS4.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS4_n5 {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS4_n5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS4_n9 {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS4_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS4-PS5 {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS4-PS5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS4-PS5-XBO {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS4-PS5-XBO.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS4-PS5-XBO-XSX {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS4-PS5-XBO-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS4-PS5-XBO-XSX-Stadia {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS4-PS5-XBO-XSX-Stadia.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS4-XBO {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS4-XBO.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS4-XBO_n5 {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS4-XBO_n5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS4-XBO_n9 {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS4-XBO_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS4-XBO-Stadia {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS4-XBO-Stadia.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS4-XBO-Stadia_n9 {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS4-XBO-Stadia_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS4-XBO-XSX {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS4-XBO-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-PS5-XSX {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-PS5-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-Stadia {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-Stadia.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-XBO {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-XBO.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-NS-XBO_n9 {
-    height: 70.42px;
-    background-image: url(../platform/Win-NS-XBO_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4 {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4_n9 {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-PS5 {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-PS5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-PS5-Stadia {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-PS5-Stadia.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-PS5-XBO {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-PS5-XBO.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-PS5-XBO-XSX {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-PS5-XBO-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-PS5-XBO-XSX-Stadia {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-PS5-XBO-XSX-Stadia.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-XBO {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-XBO.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-XBO_n5 {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-XBO_n5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-XBO_n9 {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-XBO_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-XBO_s {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-XBO_s.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-XBO-Stadia {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-XBO-Stadia.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-XBO-Stadia_n9 {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-XBO-Stadia_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-XBO-XSX {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-XBO-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-XBO-XSX_n5 {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-XBO-XSX_n5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-XBO-XSX-Stadia {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-XBO-XSX-Stadia.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS4-XBO-XSX-Stadia_n5 {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS4-XBO-XSX-Stadia_n5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS5 {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS5-XBO-XSX {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS5-XBO-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-PS5-XSX {
-    height: 70.42px;
-    background-image: url(../platform/Win-PS5-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-Stadia {
-    height: 70.42px;
-    background-image: url(../platform/Win-Stadia.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-Stadia_n9 {
-    height: 70.42px;
-    background-image: url(../platform/Win-Stadia_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-XBO {
-    height: 70.42px;
-    background-image: url(../platform/Win-XBO.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-XBO_n9 {
-    height: 70.42px;
-    background-image: url(../platform/Win-XBO_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-XBO-XSX {
-    height: 70.42px;
-    background-image: url(../platform/Win-XBO-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-XBO-XSX_n5 {
-    height: 70.42px;
-    background-image: url(../platform/Win-XBO-XSX_n5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-XSX {
-    height: 70.42px;
-    background-image: url(../platform/Win-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.Win-XSX_n5 {
-    height: 70.42px;
-    background-image: url(../platform/Win-XSX_n5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.XBO {
-    height: 70.42px;
-    background-image: url(../platform/XBO.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.XBO_n9 {
-    height: 70.42px;
-    background-image: url(../platform/XBO_n9.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.XBO-XSX {
-    height: 70.42px;
-    background-image: url(../platform/XBO-XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.XBO-XSX_n5 {
-    height: 70.42px;
-    background-image: url(../platform/XBO-XSX_n5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.XSX {
-    height: 70.42px;
-    background-image: url(../platform/XSX.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
-}
-.XSX_n5 {
-    height: 70.42px;
-    background-image: url(../platform/XSX_n5.png);
-    width: 100%;
-    background-size: cover;
-}
-.HungBokGames {
-    This source code is produced by HungBok.
+.game-card-platform-win {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/Win.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-android {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/Android.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-ios {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/ios.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-lin {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/lin.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-mac {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/Mac.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-pc {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/pc.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-ps3 {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/ps3.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-ps {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/ps.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-xb {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/XB.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-web {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/Web.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-ns {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/NS.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-ps4 {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/PS4.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-ps5 {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/PS5.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-xbo {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/XBO.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-xsx {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/XSX.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-platform-stadia {
+    opacity: 0.2;
+    position: relative;
+    width: 20px;
+	height: 20px;
+	background-image: url(../platform/individual/small-square/Stadia.png);
+	background-size: cover;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    max-width: 100%;
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
 }

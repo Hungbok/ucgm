@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="../../../css/basic.css?ver={$cssVer}">
     <link rel="stylesheet" href="../../../css/games.css?ver={$cssVer}">
     <link rel="stylesheet" href="../../../css/platforms.css?ver={$cssVer}">
+    <link rel="stylesheet" href="../../../css/component.css?ver={$cssVer}">
     <link rel="stylesheet" href="../../../css/lightbox.min.css?ver={$cssVer}">
     <link rel="stylesheet" href="../../../css/hidden-scrollbar.css?ver={$cssVer}">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QLX9EF7ECJ"></script>
@@ -125,13 +126,13 @@
                         <div class="section-date" HungBokGames>
                             <div> <span class="card-date-jp" HungBokGames><img class="small-square-platforms" HungBokGames src="../../../platform/individual/small-square/PS4.png" width="17.5px"><img class="japan" HungBokGames src="../../../flag/Japan.jpg">
                                 : August 9, 2018</span>
-                              <p class="section-additional-description" HungBokGames>The release date is for Japan or Asia only.</p>
+                              <p class="section-additional-description-eastern" HungBokGames></p>
                             </div>
                         </div>
                         <div class="section-date" HungBokGames>
                             <div> <span class="card-date-us" HungBokGames><img class="small-square-platforms" HungBokGames src="../../../platform/individual/small-square/PS4.png" width="17.5px"><img class="united_states" HungBokGames src="../../../flag/United_States.jpg">
                                 : August 20, 2019</span>
-                              <p class="section-additional-description" HungBokGames>This release date is the western or worldwide release of a previously regional exclusive game.</p>
+                              <p class="section-additional-description-western" HungBokGames></p>
                             </div>
                         </div>
                         <img class="small-square-platforms" HungBokGames src="../../../platform/individual/small-square/Win.png" width="17.5px">
@@ -178,36 +179,63 @@
         </div>
     </div>
     <div class="game-card" HungBokGames>
-        <div class="card" HungBokGames>
-            <a class="link" href?="./games/yakuza-3-remastered/home" HungBokGames>
-                <div class="card-details" HungBokGames>
-                    <p class="no-image" HungBokGames></p>
-                    <p class="card-title" HungBokGames>Yakuza 3 Remastered</p>
-                    <p class="card-date" HungBokGames>August 20, 2019</p>
-                    <p class="PS4" HungBokGames></p>
-                </div>
-            </a>
-        </div>
-        <div class="card" HungBokGames>
-            <a class="link" href?="./games/yakuza-4-remastered/home" HungBokGames>
-                <div class="card-details" HungBokGames>
-                    <p class="no-image" HungBokGames></p>
-                    <p class="card-title" HungBokGames>Yakuza 4 Remastered</p>
-                    <p class="card-date" HungBokGames>October 29, 2019</p>
-                    <p class="PS4" HungBokGames></p>
-                </div>
-            </a>
-        </div>
-        <div class="card" HungBokGames>
-            <a class="link" href?="./games/yakuza-5-remastered/home" HungBokGames>
-                <div class="card-details" HungBokGames>
-                    <p class="no-image" HungBokGames></p>
-                    <p class="card-title" HungBokGames>Yakuza 5 Remastered</p>
-                    <p class="card-date" HungBokGames>February 11, 2020</p>
-                    <p class="PS4" HungBokGames></p>
-                </div>
-            </a>
-        </div>
+        <li class="card-container-game-crad" HungBokGames>
+            <figure class="game-card-figure" HungBokGames>
+                <a class="link" href?="../../games/yakuza-3-remastered/home" HungBokGames>
+                    <img class="game-card-image"><div class="no-image"></div>
+                    <figcaption class="game-card-figcaption" HungBokGames>
+                        <p class="game-card-title" HungBokGames>Yakuza 3 Remastered</p>
+                        <br>
+                        <span class="game-card-date" HungBokGames>August 9, 2018</span>
+                        <img class="game-card-platform1" HungBokGames src="../../../platform/individual/small-square/Win.png" style="opacity:1;">
+                        <img class="game-card-platform2" HungBokGames src="../../../platform/individual/small-square/NS.png" style="opacity:0.2;">
+                        <img class="game-card-platform3" HungBokGames src="../../../platform/individual/small-square/PS4.png" style="opacity:1;">
+                        <img class="game-card-platform4" HungBokGames src="../../../platform/individual/small-square/PS5.png" style="opacity:0.2;">
+                        <img class="game-card-platform5" HungBokGames src="../../../platform/individual/small-square/XBO.png" style="opacity:1;">
+                        <img class="game-card-platform6" HungBokGames src="../../../platform/individual/small-square/XSX.png" style="opacity:0.2;">
+                        <img class="game-card-platform7" HungBokGames src="../../../platform/individual/small-square/Stadia.png" style="opacity:0.2;">
+                    </figcaption>
+                </a>
+            </figure>
+        </li>
+        <li class="card-container-game-crad" HungBokGames>
+            <figure class="game-card-figure" HungBokGames>
+                <a class="link" href?="../../games/yakuza-4-remastered/home" HungBokGames>
+                    <img class="game-card-image"><div class="no-image"></div>
+                    <figcaption class="game-card-figcaption" HungBokGames>
+                        <p class="game-card-title" HungBokGames>Yakuza 4 Remastered</p>
+                        <br>
+                        <span class="game-card-date" HungBokGames>January 17, 2019</span>
+                        <img class="game-card-platform1" HungBokGames src="../../../platform/individual/small-square/Win.png" style="opacity:1;">
+                        <img class="game-card-platform2" HungBokGames src="../../../platform/individual/small-square/NS.png" style="opacity:0.2;">
+                        <img class="game-card-platform3" HungBokGames src="../../../platform/individual/small-square/PS4.png" style="opacity:1;">
+                        <img class="game-card-platform4" HungBokGames src="../../../platform/individual/small-square/PS5.png" style="opacity:0.2;">
+                        <img class="game-card-platform5" HungBokGames src="../../../platform/individual/small-square/XBO.png" style="opacity:1;">
+                        <img class="game-card-platform6" HungBokGames src="../../../platform/individual/small-square/XSX.png" style="opacity:0.2;">
+                        <img class="game-card-platform7" HungBokGames src="../../../platform/individual/small-square/Stadia.png" style="opacity:0.2;">
+                    </figcaption>
+                </a>
+            </figure>
+        </li>
+        <li class="card-container-game-crad" HungBokGames>
+            <figure class="game-card-figure" HungBokGames>
+                <a class="link" href?="../../games/yakuza-5-remastered/home" HungBokGames>
+                    <img class="game-card-image"><div class="no-image"></div>
+                    <figcaption class="game-card-figcaption" HungBokGames>
+                        <p class="game-card-title" HungBokGames>Yakuza 5 Remastered</p>
+                        <br>
+                        <span class="game-card-date" HungBokGames>June 20, 2019</span>
+                        <img class="game-card-platform1" HungBokGames src="../../../platform/individual/small-square/Win.png" style="opacity:1;">
+                        <img class="game-card-platform2" HungBokGames src="../../../platform/individual/small-square/NS.png" style="opacity:0.2;">
+                        <img class="game-card-platform3" HungBokGames src="../../../platform/individual/small-square/PS4.png" style="opacity:1;">
+                        <img class="game-card-platform4" HungBokGames src="../../../platform/individual/small-square/PS5.png" style="opacity:0.2;">
+                        <img class="game-card-platform5" HungBokGames src="../../../platform/individual/small-square/XBO.png" style="opacity:1;">
+                        <img class="game-card-platform6" HungBokGames src="../../../platform/individual/small-square/XSX.png" style="opacity:0.2;">
+                        <img class="game-card-platform7" HungBokGames src="../../../platform/individual/small-square/Stadia.png" style="opacity:0.2;">
+                    </figcaption>
+                </a>
+            </figure>
+        </li>
     </div>
     <div class="game-card" HungBokGames>
         <div class="more">
