@@ -592,8 +592,6 @@ html {
     This source code is produced by HungBok.
 }
 .card {
-	visibility: hidden;
-	position: absolute;
 	display: inline-block;
 	font-family: 'Open Sans';
 	background-color: white;

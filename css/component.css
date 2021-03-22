@@ -32,6 +32,7 @@
     position: relative;
     border-radius: 5px 5px 5px 5px;
     display: block;
+    cursor: pointer;
 }
 .game-card-figure:hover .game-card-image {
 	-webkit-transform: translateY(-50px);
@@ -386,6 +387,44 @@
 	-webkit-user-drag: none;
 }
 .game-card-figure:hover .game-card-figcaption-early-access-text {
+	-webkit-transform: translateY(-75%);
+	-moz-transform: translateY(-75%);
+	-ms-transform: translateY(-75%);
+	transform: translateY(-75%);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+.game-card-figcaption-text {
+    height: 100px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    display: block;
+    opacity: 0;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+.game-card-figure:hover .game-card-figcaption-text {
 	-webkit-transform: translateY(-75%);
 	-moz-transform: translateY(-75%);
 	-ms-transform: translateY(-75%);
