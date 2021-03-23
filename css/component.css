@@ -395,8 +395,8 @@
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
 }
-.game-card-figcaption-text {
-    height: 100px;
+.game-card-figcaption-box {
+    height: 200px;
     width: 100%;
     top: auto;
     bottom: 0;
@@ -413,9 +413,9 @@
     -moz-transform: translateY(100%);
     -ms-transform: translateY(100%);
     transform: translateY(100%);
-    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
-    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
-    transition: transform 0.4s, opacity 0.1s 0.3s;
+    -webkit-transition: -webkit-transform 0s, opacity 0s 0s;
+    -moz-transition: -moz-transform 0s, opacity 0s 0s;
+    transition: transform 0s, opacity 0s 0s;
 	-ms-user-select: none;
 	-moz-user-select: -moz-none;
 	-webkit-user-select: none;
@@ -424,14 +424,14 @@
 	user-select: none;
 	-webkit-user-drag: none;
 }
-.game-card-figure:hover .game-card-figcaption-text {
-	-webkit-transform: translateY(-75%);
-	-moz-transform: translateY(-75%);
-	-ms-transform: translateY(-75%);
-	transform: translateY(-75%);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
-	transition: transform 0.4s, opacity 0.1s;
+.game-card-figure:hover .game-card-figcaption-box {
+    -webkit-transform: translateY(-5%);
+    -moz-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    transform: translateY(-5%);
+	-webkit-transition: -webkit-transform 0s, opacity 0s;
+	-moz-transition: -moz-transform 0s, opacity 0s;
+	transition: transform 0s, opacity 0s;
 }
 .game-card-figcaption-western {
     height: 100px;
