@@ -401,6 +401,7 @@
     top: auto;
     bottom: 0;
     opacity: 0;
+    visibility: hidden;
     position: absolute;
     left: 0;
     padding-left: 10px;
@@ -413,9 +414,9 @@
     -moz-transform: translateY(100%);
     -ms-transform: translateY(100%);
     transform: translateY(100%);
-    -webkit-transition: -webkit-transform 0s, opacity 0s 0s;
-    -moz-transition: -moz-transform 0s, opacity 0s 0s;
-    transition: transform 0s, opacity 0s 0s;
+    -webkit-transition: -webkit-transform 0.1s, opacity 0s 0s;
+    -moz-transition: -moz-transform 0.1s, opacity 0s 0s;
+    transition: transform 0.1s, opacity 0s 0s;
 	-ms-user-select: none;
 	-moz-user-select: -moz-none;
 	-webkit-user-select: none;
@@ -425,13 +426,14 @@
 	-webkit-user-drag: none;
 }
 .game-card-figure:hover .game-card-figcaption-box {
+    visibility: visible;
     -webkit-transform: translateY(-5%);
     -moz-transform: translateY(-5%);
     -ms-transform: translateY(-5%);
     transform: translateY(-5%);
-	-webkit-transition: -webkit-transform 0s, opacity 0s;
-	-moz-transition: -moz-transform 0s, opacity 0s;
-	transition: transform 0s, opacity 0s;
+	-webkit-transition: -webkit-transform 0.1s, opacity 0s;
+	-moz-transition: -moz-transform 0.1s, opacity 0s;
+	transition: transform 0.1s, opacity 0s;
 }
 .game-card-figcaption-western {
     height: 100px;
